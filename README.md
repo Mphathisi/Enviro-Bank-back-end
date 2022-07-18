@@ -7,55 +7,76 @@
 // 20220605081320
 // http://localhost:8080/users
 
+
+
+
 [
   {
-    "id": 4,
+    "id": 1,
     "email": "md@gmail.com",
-    "password": "$2a$10$4SwIMF5Z0Hn/vBHhueJs6eR0djSSWEMsl5vzBSy3.oiNa3iP8Xm0G",
+    "password": "$2a$10$bmdGvRwILjBIHJcXKTC1TudCTeYSmF/rzh6KHXo.O5wzAyy4bRr1m",
     "name": "mphathisi",
     "surname": "Dayimani",
     "idNumber": "98784343221",
     "roles": [
       {
         "id": 1,
-        "name": "Admin"
+        "name": "admin"
+      }
+    ],
+    "bankAccounts": [
+      {
+        "bank_account_id": 11,
+        "accountNumber": "12340821",
+        "accountType": "SAVINGS",
+        "accountStatus": "ACTIVE",
+        "availableBalance": 94.00,
+        "latestBalance": 94.00
+      },
+      {
+        "bank_account_id": 9,
+        "accountNumber": "12349023",
+        "accountType": "SAVINGS",
+        "accountStatus": "ACTIVE",
+        "availableBalance": 1500.00,
+        "latestBalance": 1500.00
       }
     ],
     "enabled": true,
-    "credentialsNonExpired": true,
-    "accountNonExpired": true,
+    "accountNonLocked": true,
     "username": "md@gmail.com",
     "authorities": [
       {
-        "authority": "Admin"
+        "authority": "admin"
       }
     ],
-    "accountNonLocked": true
+    "credentialsNonExpired": true,
+    "accountNonExpired": true
   },
   {
-    "id": 8,
-    "email": "dimpha@enviroBank.co.za",
-    "password": "$2a$10$2gJUQR5HcWOd0/YXaHFaIOzcMVsvBX8v62pFkBu9rVkvP49LgpQLO",
-    "name": "Dimpha",
-    "surname": "Diamond",
-    "idNumber": "8954785348",
+    "id": 2,
+    "email": "testing@gmail.com",
+    "password": "$2a$10$JSCFBqHemcv9.fDFr.nin./t715yJfUGj6Ph0PuEPvz2cymQJrIjq",
+    "name": "mphathisi",
+    "surname": "Dayimani",
+    "idNumber": "98784343221",
     "roles": [
-      {
-        "id": 1,
-        "name": "Admin"
-      }
+      
+    ],
+    "bankAccounts": [
+      
     ],
     "enabled": true,
-    "credentialsNonExpired": true,
-    "accountNonExpired": true,
-    "username": "dimpha@enviroBank.co.za",
+    "accountNonLocked": true,
+    "username": "testing@gmail.com",
     "authorities": [
-      {
-        "authority": "Admin"
-      }
+      
     ],
-    "accountNonLocked": true
-  }
+    "credentialsNonExpired": true,
+    "accountNonExpired": true
+  },
 ]
+
+
 
 ```
